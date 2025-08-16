@@ -67,11 +67,14 @@ pip install -r requirements.txt
 # Run server
 uvicorn app.main:app --reload
 
+---
+
 ## 📡 Example Request
 POST /brand-insights/
 {
   "website_url": "https://memy.co.in"
 }
+---
 ## 👤 Author
 
 Shaik Musthak
